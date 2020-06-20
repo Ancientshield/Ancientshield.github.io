@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ancientshield.github.io/sitemap.xml
