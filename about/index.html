@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-tw" itemscope itemtype="http://schema.org/WebPage">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -90,6 +91,7 @@
 
 
 </head>
+
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
@@ -147,7 +149,7 @@
 
 
   
-    
+  
 
 
 
@@ -315,10 +317,22 @@
 
   
   <div class="post-content">
-      <p>Hugo is a static site engine written in Go.</p>
+    <p>Hugo is a static site engine written in Go.</p>
 
   </div>
-
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://ancientshield.github.io/";  
+      this.page.identifier = "/post/"; 
+    };
+    (function () { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-ancientshield-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
   
   
 
@@ -457,5 +471,7 @@
 
 
 
+  <script id="dsq-count-scr" src="//https-ancientshield-github-io.disqus.com/count.js" async></script>
 </body>
+
 </html>
