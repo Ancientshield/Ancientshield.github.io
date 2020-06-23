@@ -320,19 +320,6 @@
     <p>Hugo is a static site engine written in Go.</p>
 
   </div>
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = "https://ancientshield.github.io/";  
-      this.page.identifier = "/post/"; 
-    };
-    (function () { 
-      var d = document, s = d.createElement('script');
-      s.src = 'https://https-ancientshield-github-io.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
   
   
 
@@ -342,8 +329,15 @@
 </article>
 
 
-
-
+<div id="disqus_thread"></div>
+<script>
+  (function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://larnsce.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
         </div>
       </div>
     </main>
@@ -471,7 +465,6 @@
 
 
 
-  <script id="dsq-count-scr" src="//https-ancientshield-github-io.disqus.com/count.js" async></script>
 </body>
 
 </html>
