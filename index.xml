@@ -6,7 +6,7 @@
     <description>Recent content on Ancientsword&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 21 Jun 2020 00:59:21 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 21:24:24 +0800</lastBuildDate>
     
         <atom:link href="https://ancientshield.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,18 @@
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
 </description>
+      
+    </item>
+    
+    <item>
+      <title>Test_for_friend</title>
+      <link>https://ancientshield.github.io/post/test_for_friend/</link>
+      <pubDate>Wed, 24 Jun 2020 21:24:24 +0800</pubDate>
+      
+      <guid>https://ancientshield.github.io/post/test_for_friend/</guid>
+      
+        <description>&lt;p&gt;123123&lt;/p&gt;
+&lt;p&gt;123123123&lt;/p&gt;</description>
       
     </item>
     
